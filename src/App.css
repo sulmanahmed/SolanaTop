@@ -1,0 +1,140 @@
+:root {
+  --ant-primary-font: "Hellix";
+}
+
+body {
+  background-color: #0d0d1d !important;
+  /* background-image: url("./assets/images/back-ground.png"); */
+  /* background-image: url("./assets/images/appBg.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  margin: 0px !important;
+  font-family: "Hellix" !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  width: 100% !important;
+}
+
+body,
+.ant-typography {
+  font-family: var(--ant-primary-font);
+}
+/* Hellix Regular (400) */
+@font-face {
+  font-family: "Hellix";
+  src:
+    url("./assets//fonts/Hellix-Regular.woff2") format("woff2"),
+    url("./assets//fonts/Hellix-Regular.woff") format("woff"),
+    url("./assets//fonts/Hellix-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+/* Hellix Medium (500) */
+@font-face {
+  font-family: "Hellix";
+  src:
+    url("./assets//fonts/Hellix-Medium.woff2") format("woff2"),
+    url("./assets//fonts/Hellix-Medium.woff") format("woff"),
+    url("./assets//fonts/Hellix-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+/* Hellix Semi-Bold (600) */
+@font-face {
+  font-family: "Hellix";
+  src:
+    url("./assets//fonts/Hellix-SemiBold.woff2") format("woff2"),
+    url("./assets//fonts/Hellix-SemiBold.woff") format("woff"),
+    url("./assets//fonts/Hellix-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Semi-Bold weight */
+  font-style: normal;
+}
+
+/* Hellix Bold (700) */
+@font-face {
+  font-family: "Hellix";
+  src:
+    url("./assets//fonts/Hellix-Bold.woff2") format("woff2"),
+    url("./assets//fonts/Hellix-Bold.woff") format("woff"),
+    url("./assets//fonts/Hellix-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+.ant-card .ant-card-body {
+  padding: 0px !important;
+}
+.ant-collapse-header {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.ant-collapse-content-box {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.footer-link {
+  color: #747781 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+}
+.link-to-faq {
+  color: #747781 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+  cursor: "pointer" !important;
+}
+
+.header-faq {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100%;
+}
+
+.ant-btn {
+  font-family: "Hellix" !important;
+}
+
+.social-icons {
+  cursor: pointer !important;
+}
+.custom-divider {
+  border: 1px solid #4fbebf4d !important;
+  opacity: 30% !important;
+  margin: 0px !important;
+}
+.wallet-icons {
+  cursor: pointer !important;
+}
+.spinner {
+  border: 10px solid #4fbebf;
+  border-radius: 50%;
+  border-top: 10px solid #4fbebf;
+  width: 35px;
+  height: 35px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
